@@ -4,16 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delicate-Wristlets</title>
-
-    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
-    <!-- Tailwind Custom Theme -->
     <script>
       tailwind.config = {
         theme: {
@@ -29,7 +23,7 @@
                 200: '#EADBC1',
                 300: '#DFC69D',
                 400: '#D4B179',
-                500: '#C99C55',
+                500: '#C99C55', // Primary Gold
                 600: '#A17D44',
                 700: '#795E33',
                 800: '#503E22',
@@ -41,96 +35,22 @@
       }
     </script>
 
-    <!-- Import Map -->
-
-
-    <link rel="stylesheet" href="/index.css" />
-    <script type="importmap">
-    {
-      "imports": {
-        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-        "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0",
-        "react/": "https://aistudiocdn.com/react@^19.2.1/",
-        "react": "https://aistudiocdn.com/react@^19.2.1",
-        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
-        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0"
-      }
-    }
-    </script>
-    <script type="module" crossorigin src="/delicate-wristlets/assets/index-CqKY3_DM.js"></script>
-  </head>
-
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/delicate-wristlets/assets/index-CqKY3_DM.js"></script>
+</head>
   <body class="bg-stone-50 text-stone-800 font-sans antialiased">
-
-    <!-- React Root -->
     <div id="root"></div>
-
-    <!-- --------------------- SECTION B — FEATURED COLLECTIONS --------------------- -->
-    <div id="extra-sections">
-      <section class="py-20 bg-white border-t border-stone-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          <!-- Title -->
-          <div class="text-center mb-12">
-            <h2 class="font-serif text-4xl text-stone-900">Explore Our Collections</h2>
-            <p class="text-stone-500 mt-2">Premium designs crafted for every style and occasion</p>
-          </div>
-
-          <!-- Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-
-            <!-- Collection 1 -->
-            <div class="group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-md">
-                <img
-                  src="https://images.unsplash.com/photo-1589254065878-42c9da997f52?q=80&w=1200"
-                  class="w-full h-80 object-cover transform group-hover:scale-110 transition duration-700"
-                />
-              </div>
-              <h3 class="text-xl font-serif mt-4 text-stone-900">Gold Collection</h3>
-              <p class="text-stone-500 text-sm">Classic brilliance that never fades.</p>
-            </div>
-
-            <!-- Collection 2 -->
-            <div class="group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-md">
-                <img
-                  src="https://images.unsplash.com/photo-1571607388263-1044e43d8f17?q=80&w=1200"
-                  class="w-full h-80 object-cover transform group-hover:scale-110 transition duration-700"
-                />
-              </div>
-              <h3 class="text-xl font-serif mt-4 text-stone-900">Diamond Collection</h3>
-              <p class="text-stone-500 text-sm">Sparkle crafted to perfection.</p>
-            </div>
-
-            <!-- Collection 3 -->
-            <div class="group cursor-pointer">
-              <div class="overflow-hidden rounded-xl shadow-md">
-                <img
-                  src="https://images.unsplash.com/photo-1606335543042-1b063f63089c?q=80&w=1200"
-                  class="w-full h-80 object-cover transform group-hover:scale-110 transition duration-700"
-                />
-              </div>
-              <h3 class="text-xl font-serif mt-4 text-stone-900">Bridal Sets</h3>
-              <p class="text-stone-500 text-sm">Make your special day truly elegant.</p>
-            </div>
-
-          </div>
-
-          <!-- Button -->
-          <div class="text-center mt-12">
-            <a
-              href="/collections"
-              class="inline-block px-10 py-3 bg-stone-900 text-white rounded shadow-lg hover:bg-stone-700 transition"
-            >
-              Browse All Collections
-            </a>
-          </div>
-
-        </div>
-      </section>
-    </div>
-    <!-- ------------------ END SECTION B ------------------ -->
-
-  </body>
+</body>
 </html>
