@@ -1,0 +1,8 @@
+{
+  "name": "Delicate-Wristlets",
+  "description": "A luxury bangle brand website with an AI Stylist and Admin dashboard for inventory management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
